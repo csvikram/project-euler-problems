@@ -8,7 +8,7 @@ public class _01_Multiple_Of_3_Or_5 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number");
 		long n = scan.nextLong();
-		System.out.printf("Sum is %d\n", findSumOfMultipleOf3Or5(n));
+		System.out.printf("Sum of multiple of 3 or 5 is %d\n", findSumOfMultipleOf3Or5(n));
 	}
 
 	private static long findSumOfMultipleOf3Or5(long n) {
